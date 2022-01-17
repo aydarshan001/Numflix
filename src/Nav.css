@@ -1,0 +1,29 @@
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    justify-content: space-between;
+}
+
+.nav_black {
+    background-color: rgb(22, 21, 21);
+}
+
+.nav img {
+    width: 100px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.nav input {
+    height: 20px;
+    align-items: center;
+    margin-top: 18px;
+    margin-right: 14px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 4px;
+}
